@@ -27,9 +27,7 @@ public class Editar extends JPanel {
 	private Arquivo arq = new Arquivo("Contatos");
 	private JComboBox cbTipo;
 
-	/**
-	 * Create the panel.
-	 */
+
 	public Editar() {
 		initComponents();
 	}

@@ -24,9 +24,6 @@ public class Excluir extends JPanel {
 	private JTextField txtEmail;
 	private Arquivo arq = new Arquivo("Contatos");
 
-	/**
-	 * Create the panel.
-	 */
 	public Excluir() {
 		initComponents();
 	}
