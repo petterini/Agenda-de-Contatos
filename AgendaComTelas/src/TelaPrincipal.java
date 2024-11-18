@@ -24,9 +24,7 @@ public class TelaPrincipal extends JPanel {
 	private JButton btnNewButton;
 	private Arquivo arq = new Arquivo("Contatos");
 
-	/**
-	 * Create the panel.
-	 */
+
 	public TelaPrincipal() {
 		chamaLista();
 		initComponents();
