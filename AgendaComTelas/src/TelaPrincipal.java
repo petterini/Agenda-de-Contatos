@@ -32,7 +32,6 @@ public class TelaPrincipal extends JPanel {
 
 	private void chamaLista() {
 		arq.ler();
-		// comentário para forçar um conflito
 		DefaultTableModel m = (DefaultTableModel) table.getModel();
 		m.setRowCount(0);
 		for (Pessoa p : Principal.pessoas) {
